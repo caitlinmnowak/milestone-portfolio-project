@@ -1,0 +1,224 @@
+/**** BASE STYLE ****/
+
+body {
+    font-family: 'Domine', serif;
+    font-size: 24px;
+}
+
+#about {
+    height: 500px;
+}
+#portfolio {
+    height: 550px;
+}
+#contact {
+    height: 400px;
+}
+/**** GRID ****/
+
+.full-width {
+    width: 1200px
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/**** HEADER ****/
+
+header {
+    height: 700px;
+    width: 1330px;
+    min-width: 20%;
+    min-height: 20%;
+    background-image: url('../img/pretty-laptop-background.png');
+    background-size: cover;
+    background-position: center center;
+    margin: -50px;
+
+}
+header h1 {
+    padding: 35px 0 10px 200px ;
+    font-family: 'Domine', serif;
+    font-size: 60px;
+    color: #EC7581;
+    text-align: left;
+}
+header h1 span {
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+  color: #EC7581;
+}
+header h2 {
+    font-family: 'Shadows into light', cursive;
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+    line-height: 80px;
+    float: right;
+    color: #ffffff;
+    padding: 30px 380px 0 50px;
+    margin-left: 50px;
+}
+
+/**** ABOUT ****/
+
+#about .full-width {
+    padding: 40px 0;
+}
+
+#about h3 {
+    font-family: 'Shadows into light', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#about p{
+    font-family: 'domine', serif;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 350px;
+}
+
+#about p span {
+    font-weight: 700;
+}
+
+#about img {
+    height: 300px;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 350px;
+}
+
+/**** PORTFOLIO ****/
+
+#portfolio {
+    background: #F4AAB3;
+    text-align: center;
+}
+
+#portfolio .full-width {
+    padding: 0 20px;
+
+}
+
+#portfolio h3 {
+  font-family: 'Shadows into light', cursive;
+  font-size: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#portfolio p {
+  font-family: 'domine', serif;
+  font-size: 18px;
+  color: #ffffff;
+  float: center;
+  text-align: center;
+  line-height: 37px;
+  padding-left: 60px;
+  padding-top: 100px;
+  width: 300px;
+}
+
+#portfolio p span {
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+#portfolio img#rogue-pickings {
+    width: 300px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    float: left;
+    display: center;
+}
+
+#portfolio img#jubilee-austen {
+    width: 300px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    float: left;
+    display: center;
+}
+
+#portfolio img#caitlinmarienowak {
+    width: 325px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    float: left;
+    display: center;
+}
+
+/**** CONTACT ****/
+
+#contact {
+    background: #7A9864;
+}
+#contact .full-width {
+    padding: 20px 20px;
+}
+
+#contact h3 {
+  font-family: 'Shadows into light', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact p {
+  font-family: 'domine', serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 35px;
+}
+
+#contact p span {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+#contact a {
+    text-align: center;
+    color: #F4AAB3;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 25px;
+    height: 25px;
+
+}
+
+/**** FOOTER ****/
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
